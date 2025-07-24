@@ -75,17 +75,6 @@ The project follows a structured data science workflow:
     cd your-repository-name
     ```
 
-2.  **Create and activate a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install the required dependencies:**
-    *(Note: First, create a `requirements.txt` file by running `pip freeze > requirements.txt` in your local environment after installing the libraries).*
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### Usage
 
@@ -100,7 +89,7 @@ The project follows a structured data science workflow:
 
 ## 📈 Key Results & Visualizations
 
-The analysis yielded a highly accurate forecasting model, with the Random Forest Regressor achieving an **R² score of 1.00** on the test set.
+The model achieves a very high R² score on the test set, demonstrating strong performance, particularly in predicting stable, low-growth counties.
 
 **1. Comparative Feature Importance:**
 The models identified recent historical data (`ev_total_lag2` and `ev_total_lag1`) as the most important predictors.
