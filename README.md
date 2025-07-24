@@ -75,6 +75,12 @@ The project follows a structured data science workflow:
     cd your-repository-name
     ```
 
+2.  **Install the required dependencies:**
+    *(Note: First, create a `requirements.txt` file by running `pip freeze > requirements.txt` in your local environment after installing the libraries).*
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 
 ### Usage
 
